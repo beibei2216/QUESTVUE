@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+    <title>Azure Isle Lighthouse Model Review</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #b8c7ae;
+      }
+
+      canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+      .view-label {
+        position: fixed;
+        top: 20px;
+        left: 22px;
+        padding: 8px 12px;
+        border: 1px solid rgba(255, 249, 232, 0.54);
+        border-radius: 14px;
+        background: rgba(45, 76, 70, 0.62);
+        color: #fff9e8;
+        font: 700 11px/1.2 "Trebuchet MS", "Microsoft YaHei", sans-serif;
+        letter-spacing: 0.12em;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="view-label" id="view-label">MODEL REVIEW</div>
+    <script type="module" src="/tools/model-review/model-preview.js"></script>
+  </body>
+</html>

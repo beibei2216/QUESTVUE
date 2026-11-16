@@ -1,0 +1,42 @@
+# Dependencies and build output
+node_modules/
+dist/
+html/
+.vite/
+
+# Local QA output and archived review artifacts
+qa/output/
+qa/archive/
+
+# Browser profiles and local model-generation state
+.chrome-*/
+.img2threejs-*/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Legacy root-level QA screenshots and renders
+/*.png
+/*.jpg
+/*.jpeg
+/comparison-*
+/material-*
+/model-*
+/video-frame-*
+/windmill-*
+/qa-*
+/server-*

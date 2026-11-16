@@ -1,0 +1,26 @@
+{
+  "name": "azure-map-adventure",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A handcrafted Three.js island exploration game with tasks, snapshots and a photo wall.",
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node scripts/vite.mjs dev",
+    "build": "node scripts/vite.mjs build",
+    "preview": "node scripts/vite.mjs preview",
+    "test": "node scripts/vite.mjs build && node scripts/verify.mjs",
+    "qa": "node scripts/qa.mjs",
+    "qa:photo-wall": "node scripts/qa-photo-wall.mjs",
+    "qa:focus-controls": "node scripts/qa-focus-controls.mjs"
+  },
+  "dependencies": {
+    "three": "0.124.0"
+  },
+  "devDependencies": {
+    "vite": "5.4.11"
+  }
+}
